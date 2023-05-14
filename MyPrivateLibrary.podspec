@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyPrivateLibrary"
-  #spec.version      = "0.0.1"
+  spec.version      = "0.0.1"
   spec.summary      = "Test library for HalcomUI."
 
   # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  #spec.description  = <<-DESC
+  #                DESC
 
   spec.homepage     = "https://github.com/VladanAndjelkovic/MyPrivateLibrary"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -70,6 +70,9 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
+  spec.swift_version         = '5.0'
+  spec.ios.deployment_target = '12.0'
+
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
@@ -94,10 +97,6 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-
-  spec.swift_version         = '5.0'
-  spec.ios.deployment_target = '12.0'
 
   spec.source_files  = "Halcom_UI_lib*"
   #spec.exclude_files = "Classes/Exclude"
