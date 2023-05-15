@@ -1,0 +1,21 @@
+PODS:
+  - MyPrivateLibrary (0.0.1)
+
+DEPENDENCIES:
+  - MyPrivateLibrary (from `https://github.com/VladanAndjelkovic/MyPrivateLibrary`)
+
+EXTERNAL SOURCES:
+  MyPrivateLibrary:
+    :git: https://github.com/VladanAndjelkovic/MyPrivateLibrary
+
+CHECKOUT OPTIONS:
+  MyPrivateLibrary:
+    :commit: 8c9ef92389a99e068766b80e956502be40ed5191
+    :git: https://github.com/VladanAndjelkovic/MyPrivateLibrary
+
+SPEC CHECKSUMS:
+  MyPrivateLibrary: ec3c73f0d328019ee4d99dbd8196581663e2e209
+
+PODFILE CHECKSUM: 86b87aa87483f7ba7ae58c4f1cc20f7906d925cb
+
+COCOAPODS: 1.11.3

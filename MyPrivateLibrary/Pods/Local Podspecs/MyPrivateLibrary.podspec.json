@@ -1,0 +1,23 @@
+{
+  "name": "MyPrivateLibrary",
+  "version": "0.0.1",
+  "summary": "Test library for HalcomUI.",
+  "homepage": "https://github.com/VladanAndjelkovic/MyPrivateLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vladan  Andjelkovic": "vladan.andjelkovic@alterset.net"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/VladanAndjelkovic/MyPrivateLibrary.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "MyPrivateLibrary*",
+  "swift_version": "5.0"
+}

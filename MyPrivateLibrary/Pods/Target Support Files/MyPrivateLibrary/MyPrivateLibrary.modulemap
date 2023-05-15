@@ -1,0 +1,6 @@
+framework module MyPrivateLibrary {
+  umbrella header "MyPrivateLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

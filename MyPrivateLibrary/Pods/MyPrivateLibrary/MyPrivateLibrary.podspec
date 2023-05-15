@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   #spec.description  = <<-DESC
   #                DESC
 
-  spec.homepage     = "https://github.com/VladanAndjelkovic/MyPrivateLibrary.git"
+  spec.homepage     = "https://github.com/VladanAndjelkovic/MyPrivateLibrary"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
