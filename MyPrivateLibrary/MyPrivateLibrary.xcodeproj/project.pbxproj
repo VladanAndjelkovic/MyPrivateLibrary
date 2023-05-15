@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		68064D1D2A120B010015FA9B /* Pods_MyPrivateLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76D29BA4BA6F8CA0FD33927 /* Pods_MyPrivateLibrary.framework */; };
 		68064D1E2A120B010015FA9B /* Pods_MyPrivateLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B76D29BA4BA6F8CA0FD33927 /* Pods_MyPrivateLibrary.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68064D242A121B600015FA9B /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68064D232A121B600015FA9B /* ButtonModel.swift */; };
+		68064D262A121B840015FA9B /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68064D252A121B840015FA9B /* ButtonViewModel.swift */; };
+		68064D282A121BB00015FA9B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68064D272A121BB00015FA9B /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		68064D232A121B600015FA9B /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		68064D252A121B840015FA9B /* ButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
+		68064D272A121BB00015FA9B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		681714322A10FEED00F0CBDC /* MyPrivateLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPrivateLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7A6C3E7E36CE0D7813DEE9 /* Pods-MyPrivateLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPrivateLibrary.release.xcconfig"; path = "Target Support Files/Pods-MyPrivateLibrary/Pods-MyPrivateLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		A7D462049E3BBCDC2BB653B5 /* Pods-MyPrivateLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPrivateLibrary.debug.xcconfig"; path = "Target Support Files/Pods-MyPrivateLibrary/Pods-MyPrivateLibrary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +53,9 @@
 		68064D1B2A11FD500015FA9B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				68064D202A121AD00015FA9B /* Models */,
+				68064D212A121ADD0015FA9B /* ViewModels */,
+				68064D222A121AEB0015FA9B /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -56,6 +65,30 @@
 			children = (
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		68064D202A121AD00015FA9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68064D232A121B600015FA9B /* ButtonModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68064D212A121ADD0015FA9B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				68064D252A121B840015FA9B /* ButtonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		68064D222A121AEB0015FA9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68064D272A121BB00015FA9B /* CustomButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		681714282A10FEED00F0CBDC = {
@@ -146,6 +179,7 @@
 				TargetAttributes = {
 					681714312A10FEED00F0CBDC = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -207,6 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68064D262A121B840015FA9B /* ButtonViewModel.swift in Sources */,
+				68064D242A121B600015FA9B /* ButtonModel.swift in Sources */,
+				68064D282A121BB00015FA9B /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7D462049E3BBCDC2BB653B5 /* Pods-MyPrivateLibrary.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -358,6 +396,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F7A6C3E7E36CE0D7813DEE9 /* Pods-MyPrivateLibrary.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
