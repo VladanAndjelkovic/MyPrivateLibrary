@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		681714362A10FEED00F0CBDC /* MyPrivateLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 681714352A10FEED00F0CBDC /* MyPrivateLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ACAECA9772FCCECA3C9363A /* Pods_MyPrivateLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76D29BA4BA6F8CA0FD33927 /* Pods_MyPrivateLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		681714322A10FEED00F0CBDC /* MyPrivateLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPrivateLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		681714352A10FEED00F0CBDC /* MyPrivateLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPrivateLibrary.h; sourceTree = "<group>"; };
 		6F7A6C3E7E36CE0D7813DEE9 /* Pods-MyPrivateLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPrivateLibrary.release.xcconfig"; path = "Target Support Files/Pods-MyPrivateLibrary/Pods-MyPrivateLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		A7D462049E3BBCDC2BB653B5 /* Pods-MyPrivateLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPrivateLibrary.debug.xcconfig"; path = "Target Support Files/Pods-MyPrivateLibrary/Pods-MyPrivateLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		B76D29BA4BA6F8CA0FD33927 /* Pods_MyPrivateLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPrivateLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +66,6 @@
 			children = (
 				68064D1C2A11FD610015FA9B /* Resource */,
 				68064D1B2A11FD500015FA9B /* Classes */,
-				681714352A10FEED00F0CBDC /* MyPrivateLibrary.h */,
 			);
 			path = MyPrivateLibrary;
 			sourceTree = "<group>";
@@ -97,7 +94,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681714362A10FEED00F0CBDC /* MyPrivateLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
